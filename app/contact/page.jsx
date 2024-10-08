@@ -53,8 +53,9 @@ const Contact = () => {
             >
               <h3 className="text-4xl text-accent">Let's work together</h3>
               <p className="text-white/60">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Assumenda repellendus quisquam maiores error rem voluptas?
+                Have a project in mind or need help with WordPress development?
+                I’d love to hear from you! Let’s discuss how I can help bring
+                your vision to life.
               </p>
 
               {/* input */}
