@@ -19,8 +19,10 @@ const Home = () => {
               <span className="text-accent">Muzammil Hussain</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              I excel at creafting elegant digital expereience and I am
-              proficent in various programming languages and technologies.
+              I specialize in crafting high-performance websites, custom
+              WordPress themes, and plugins that help businesses thrive. With
+              over 15 years of experience, I’m passionate about delivering
+              efficient, scalable, and innovative web solutions.
             </p>
             {/* button and social icons */}
             <div className="flex flex-col xl:flex-row items-center gap-8">

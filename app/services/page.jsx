@@ -9,28 +9,28 @@ const services = [
     num: "01",
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quam.",
+      "I create high-performance websites tailored to your business needs. Whether it's custom WordPress themes, complex web applications, or eCommerce platforms, I deliver scalable solutions that are optimized for speed, user experience, and functionality. Every line of code I write is focused on helping your business grow.",
     href: "",
   },
   {
     num: "02",
     title: "UI/UX Design",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quam.",
+      "I design interfaces that are not just visually appealing but deeply rooted in user experience. Every project I undertake begins with understanding your audience to craft designs that are intuitive, responsive, and enhance engagement. My design philosophy revolves around creating seamless digital experiences.",
     href: "",
   },
   {
     num: "03",
     title: "Logo Design",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quam.",
+      "Your logo is the face of your brand, and I’m here to ensure it makes a lasting impression. With my design expertise, I craft logos that capture the essence of your business, helping you stand out in a crowded market. Whether it’s a new logo or a brand refresh, I’ll create something memorable and timeless.",
     href: "",
   },
   {
     num: "04",
     title: "SEO",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quam.",
+      "I help businesses increase their online visibility with a strategic approach to SEO. From technical optimization to content strategy, I make sure your website ranks well, attracts the right audience, and converts visitors into customers. My goal is to get your business in front of the people who need it most.",
     href: "",
   },
 ];
