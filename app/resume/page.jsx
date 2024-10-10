@@ -9,7 +9,21 @@ import {
   FaNodeJs,
 } from "react-icons/fa";
 
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import {
+  SiPhp,
+  SiTailwindcss,
+  SiNextdotjs,
+  SiLaravel,
+  SiShopify,
+  SiExpress,
+  SiBootstrap,
+  SiMysql,
+  SiMongodb,
+} from "react-icons/si";
+import { BsWordpress } from "react-icons/bs";
+
+import { DiPhotoshop, DiIllustrator } from "react-icons/di";
+
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
   Tooltip,
@@ -21,9 +35,9 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { motion } from "framer-motion";
 
 const about = {
-  title: "About me",
+  title: "About Me",
   description:
-    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore vitae reiciendis obcaecati rerum.",
+    "I am Muzammil Hussain, a seasoned full-stack developer with over 12 years of experience building high-performance websites and custom web solutions. I specialize in WordPress, PHP, React, and Node.js, delivering scalable and efficient applications for businesses around the globe. Passionate about coding, design, and problem-solving, I thrive on turning complex challenges into seamless digital experiences. Whether it’s creating custom themes or optimizing performance, I’m dedicated to helping businesses grow through innovative web solutions.",
   info: [
     {
       fieldName: "Name",
@@ -35,7 +49,7 @@ const about = {
     },
     {
       fieldName: "Experience",
-      fieldValue: "12+ Years",
+      fieldValue: "15 Years",
     },
     {
       fieldName: "Skype",
@@ -51,7 +65,7 @@ const about = {
     },
     {
       fieldName: "Freelance",
-      fieldValue: "Availale",
+      fieldValue: "Available",
     },
     {
       fieldName: "Language",
@@ -62,44 +76,51 @@ const about = {
 
 const experience = {
   icon: "/assets/resume/badge.svg",
-  title: "My experience",
+  title: "My Experience",
   description:
-    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore vitae reiciendis obcaecati rerum.",
+    "With over 15 years of experience across various roles in software development, product management, and full-stack development, I have successfully delivered high-performance web solutions. Here’s a summary of my journey through various positions where I applied my expertise in web development, project management, and more.",
   items: [
     {
-      company: "AlphaSquared Ltd",
-      position: "Php and WordPress developer",
-      duration: "2 years",
+      company: "Upwork",
+      position: "Professional Freelancer",
+      duration: "Nov 2008 - Present (16 years)",
+      responsibilities:
+        "As a full-stack developer, I have worked with international clients, specializing in WordPress, WooCommerce, and Genesis frameworks. I deliver custom themes, plugins, and high-performance web applications while adhering to SEO best practices and optimizing site performance. Technologies used: Angular, CSS3, PHP, JavaScript, and more.",
     },
     {
-      company: "AlphaSquared Ltd",
-      position: "Php and WordPress developer",
-      duration: "2 years",
+      company: "AppsGenii Technologies",
+      position: "Product Manager",
+      duration: "Jan 2021 - Dec 2021 (1 year)",
+      responsibilities:
+        "Led product development teams in creating responsive web applications and optimizing features for better user experience. Worked closely with developers to implement product improvements and ensure timely delivery. Technologies used: Responsiveness, Ruby, and more.",
     },
     {
-      company: "AlphaSquared Ltd",
-      position: "Php and WordPress developer",
-      duration: "2 years",
+      company: "GharPar Technologies Private Limited",
+      position: "Product Manager",
+      duration: "Mar 2020 - Dec 2020 (10 months)",
+      responsibilities:
+        "Managed the development and launch of a robust web platform tailored to on-demand services. Oversaw design, development, and deployment, focusing on enhancing user experience and overall platform performance. Technologies used: MySQL, Bootstrap 4, and more.",
     },
     {
-      company: "AlphaSquared Ltd",
-      position: "Php and WordPress developer",
-      duration: "2 years",
+      company: "GharPar Technologies Private Limited",
+      position: "Senior Information Technology Engineer",
+      duration: "Jun 2017 - Mar 2020 (2 years 10 months)",
+      responsibilities:
+        "Led the IT team in maintaining the company’s infrastructure and ensuring the smooth development of core applications. Played a critical role in scaling the tech stack and improving the website’s performance. Technologies used: MySQL, Bootstrap 4, PHP.",
     },
     {
-      company: "AlphaSquared Ltd",
-      position: "Php and WordPress developer",
-      duration: "2 years",
+      company: "Tintash",
+      position: "Software Engineer",
+      duration: "Jul 2017 - Jan 2018 (7 months)",
+      responsibilities:
+        "Part of a team that developed custom solutions for clients using Ruby on Rails and other technologies. Focused on web development, database optimization, and back-end functionality. Technologies used: Ruby on Rails, Software Development.",
     },
     {
-      company: "AlphaSquared Ltd",
-      position: "Php and WordPress developer",
-      duration: "2 years",
-    },
-    {
-      company: "AlphaSquared Ltd",
-      position: "Php and WordPress developer",
-      duration: "2 years",
+      company: "AlphaSquared Technologies Inc.",
+      position: "PHP Developer",
+      duration: "Jun 2015 - Jun 2017 (2 years 1 month)",
+      responsibilities:
+        "Developed and maintained PHP-based web applications. Collaborated with teams to deliver scalable web solutions, optimize databases, and improve performance. Technologies used: MySQL, Bootstrap 4, PHP.",
     },
   ],
 };
@@ -108,22 +129,17 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My Education",
   description:
-    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore vitae reiciendis obcaecati rerum.",
+    "Throughout my educational journey, I have continually sought to expand my knowledge and skills, both through formal education and self-driven learning. From commerce studies to online certifications, my education has provided a solid foundation for my career in software development.",
   items: [
     {
-      institute: "AlphaSquared Ltd",
-      degree: "Php and WordPress developer",
-      duration: "2 years",
+      institute: "Udemy",
+      degree: "Various Professional Courses in Software Development",
+      duration: "2018 - 2024",
     },
     {
-      institute: "AlphaSquared Ltd",
-      degree: "Php and WordPress developer",
-      duration: "2 years",
-    },
-    {
-      institute: "AlphaSquared Ltd",
-      degree: "Php and WordPress developer",
-      duration: "2 years",
+      institute: "University of the Punjab",
+      degree: "Bachelor of Commerce (BCom)",
+      duration: "2002 - 2004",
     },
   ],
 };
@@ -131,39 +147,104 @@ const education = {
 const skills = {
   title: "My Skills",
   description:
-    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore vitae reiciendis obcaecati rerum.",
-  skillList: [
+    "I have a diverse range of technical skills that allow me to create high-performance websites, scalable applications, and visually compelling designs. With expertise across various programming languages, frameworks, and design tools, I’m equipped to deliver top-notch solutions that meet your business needs.",
+  categories: [
     {
-      icon: <FaHtml5 />,
-      name: "HTML 5",
+      categoryTitle: "Languages",
+      skillsList: [
+        {
+          icon: <FaHtml5 />,
+          name: "HTML 5",
+        },
+        {
+          icon: <FaCss3 />,
+          name: "CSS 3",
+        },
+        {
+          icon: <FaJs />,
+          name: "Javascript",
+        },
+        {
+          icon: <SiPhp />,
+          name: "PHP",
+        },
+        {
+          icon: <SiMysql />,
+          name: "Mysql",
+        },
+        {
+          icon: <SiMongodb />,
+          name: "Mongodb",
+        },
+      ],
     },
     {
-      icon: <FaCss3 />,
-      name: "CSS 3",
+      categoryTitle: "Frameworks & Libraries",
+      skillsList: [
+        {
+          icon: <FaReact />,
+          name: "React",
+        },
+        {
+          icon: <SiNextdotjs />,
+          name: "Next.js",
+        },
+        {
+          icon: <FaNodeJs />,
+          name: "Node Js",
+        },
+        {
+          icon: <SiLaravel />,
+          name: "Laravel",
+        },
+        {
+          icon: <SiExpress />,
+          name: "Express.js",
+        },
+      ],
     },
     {
-      icon: <FaJs />,
-      name: "Javascript",
+      categoryTitle: "Design Tools",
+      skillsList: [
+        {
+          icon: <FaFigma />,
+          name: "Figma",
+        },
+        {
+          icon: <DiPhotoshop />,
+          name: "Adobe Photoshop",
+        },
+        {
+          icon: <DiIllustrator />,
+          name: "Adobe Illustrator",
+        },
+      ],
     },
     {
-      icon: <FaReact />,
-      name: "React",
+      categoryTitle: "CSS Frameworks",
+      skillsList: [
+        {
+          icon: <SiTailwindcss />,
+          name: "Tailwind CSS",
+        },
+        {
+          icon: <SiBootstrap />,
+          name: "Bootstrap",
+        },
+      ],
     },
     {
-      icon: <SiNextdotjs />,
-      name: "Next.js",
-    },
-    {
-      icon: <SiTailwindcss />,
-      name: "Tailwindcss",
-    },
-    {
-      icon: <FaFigma />,
-      name: "Figma",
-    },
-    {
-      icon: <FaNodeJs />,
-      name: "Node Js",
+      categoryTitle: "Content Management & E-Commerce Platforms",
+      skillsList: [
+        {
+          icon: <BsWordpress />,
+          name: "WordPress",
+        },
+        {
+          icon: <SiShopify />,
+          name: "Shopify",
+        },
+      ],
     },
   ],
 };
@@ -194,9 +275,9 @@ const Resume = () => {
           <div className="min-h-[70vh] w-full">
             {/* experience */}
             <TabsContent value="experience" className="w-full">
-              <div className="flex flex-col gap-[30px] text-center xl:text-left">
+              <div className="flex flex-col gap-[30px] text-center xl:text-left mx-10 xl:mx-0">
                 <h3 className="text-4xl font-bold">{experience.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                <p className="max-w-[600px] md:max-w-full text-white/60 mx-auto xl:mx-0">
                   {experience.description}
                 </p>
                 <ScrollArea className="h-[400px]">
@@ -226,9 +307,9 @@ const Resume = () => {
 
             {/* education */}
             <TabsContent value="education" className="w-full">
-              <div className="flex flex-col gap-[30px] text-center xl:text-left">
+              <div className="flex flex-col gap-[30px] text-center xl:text-left mx-10 xl:mx-0">
                 <h3 className="text-4xl font-bold">{education.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                <p className="max-w-[600px] md:max-w-full text-white/60 mx-auto xl:mx-0">
                   {education.description}
                 </p>
                 <ScrollArea className="h-[400px]">
@@ -240,7 +321,7 @@ const Resume = () => {
                           className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
                         >
                           <span className="text-accent">{item.duration}</span>
-                          <span className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left capitalize">
+                          <span className="text-xl max-w-[260px] max-h-[200px] text-center lg:text-left capitalize">
                             {item.degree}
                           </span>
                           <div className="flex items-center gap-3">
@@ -258,33 +339,38 @@ const Resume = () => {
 
             {/* skills */}
             <TabsContent value="skills" className="w-full h-full">
-              <div className="flex flex-col gap-[30px]">
-                <div className="flex flex-col gap-[30px] text-center xl:text-left">
-                  <h3 className="text-4xl font-bold">{skills.title}</h3>
-                  <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
-                    {skills.description}
-                  </p>
-                </div>
-                <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
-                  {skills.skillList.map((skill, index) => {
-                    return (
-                      <li className="" key={index}>
-                        <TooltipProvider delayDuration={100}>
-                          <Tooltip>
-                            <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
-                              <div className="text-6xl group-hover:text-accent transition-all duration-300">
-                                {skill.icon}
-                              </div>
-                            </TooltipTrigger>
-                            <TooltipContent>
-                              <p className="capitalize">{skill.name}</p>
-                            </TooltipContent>
-                          </Tooltip>
-                        </TooltipProvider>
-                      </li>
-                    );
-                  })}
-                </ul>
+              <div className="flex flex-col gap-[30px] mx-10 xl:mx-0 text-center xl:text-left">
+                <h3 className="text-4xl font-bold">{skills.title}</h3>
+                <p className="max-w-[600px] md:max-w-full text-white/60 mx-auto xl:mx-0">
+                  {skills.description}
+                </p>
+
+                {/* Render Categories and Skill List */}
+                {skills.categories.map((category, catIndex) => (
+                  <div key={catIndex} className="mt-[30px]">
+                    <h4 className="text-1xl font-semibold flex justify-center items-center lg:justify-start lg:items-start">
+                      {category.categoryTitle}
+                    </h4>
+                    <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 xl:gap-[30px] mt-[20px]">
+                      {category.skillsList.map((skill, index) => (
+                        <li key={index}>
+                          <TooltipProvider delayDuration={100}>
+                            <Tooltip>
+                              <TooltipTrigger className="w-full h-[150px] lg:h-[100px] bg-[#232329] rounded-xl flex justify-center items-center group">
+                                <div className="text-6xl lg:text-5xl group-hover:text-accent transition-all duration-300">
+                                  {skill.icon}
+                                </div>
+                              </TooltipTrigger>
+                              <TooltipContent>
+                                <p className="capitalize">{skill.name}</p>
+                              </TooltipContent>
+                            </Tooltip>
+                          </TooltipProvider>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
               </div>
             </TabsContent>
 
@@ -293,16 +379,16 @@ const Resume = () => {
               value="about"
               className="w-full text-center xl:text-left"
             >
-              <div className="flex flex-col gap-[30px]">
+              <div className="flex flex-col gap-[30px] text-center xl:text-left mx-10 xl:mx-0">
                 <h3 className="text-4xl font-bold">{about.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                <p className="max-w-[600px] md:max-w-full text-white/60 mx-auto xl:mx-0">
                   {about.description}
                 </p>
                 <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
                   {about.info.map((item, index) => {
                     return (
                       <li
-                        className="flex items-center justify-center xl:justify-start gap-4"
+                        className="flex items-center justify-center xl:items-start xl:justify-start gap-4"
                         key={index}
                       >
                         <span className="text-white/60">{item.fieldName}</span>

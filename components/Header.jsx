@@ -4,17 +4,14 @@ import { Button } from "./ui/button";
 // components
 import Nav from "./Nav";
 import MobileNav from "./MobileNav";
+import Logo from "./Logo";
 
 const Header = () => {
   return (
-    <header className="py-8 xl:py-12 text-white">
+    <header className="py-8 xl:py-12 text-white mb-16 xl:mb-0">
       <div className="container mx-auto flex justify-between items-center">
         {/* logo */}
-        <Link href="/">
-          <h1 className="text-4xl font-semibold">
-            muzammil<span className="text-accent">.</span>dev
-          </h1>
-        </Link>
+        <Logo />
 
         {/* desktop nav & hire button */}
         <div className="hidden xl:flex items-center gap-8">

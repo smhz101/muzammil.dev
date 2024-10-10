@@ -8,12 +8,14 @@ import Stats from "@/components/Stats";
 
 const Home = () => {
   return (
-    <section className="h-full">
+    <section className="home h-full">
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/* text */}
-          <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl">Software Engineer</span>
+          <div className="text-center xl:text-left order-2 xl:order-none mx-10 xl:mx-0">
+            <span className="text-xl mb-6 xl:mb-4 flex justify-center xl:justify-start">
+              Software Engineer
+            </span>
             <h1 className="h1 mb-6">
               Hello I&#39;m <br />
               <span className="text-accent">Muzammil Hussain</span>
